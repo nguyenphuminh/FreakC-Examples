@@ -1,0 +1,9 @@
+Fuck[fnc] arrayfunc
+PoopString[fnc] list=3 4 1 2 8 7
+Swear[fnc] List: %list%
+Bitchiest[fnc] "max" "%list%"
+Swear[fnc] Largest number: %max%
+Horniest[fnc] "min" "%list%"
+Swear[fnc] Smallest number: %min%
+CountBitches[fnc] "sum" "%list%"
+Swear[fnc] Sum of all numbers: %sum%

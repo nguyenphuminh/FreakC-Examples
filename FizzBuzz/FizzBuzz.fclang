@@ -1,0 +1,30 @@
+ChangeName[fnc] FizzBuzz
+
+PoopInt[fnc] count=1
+PoopFnc[fnc] loop
+
+DoIfFalse[fnc] %count% LSS 101 (
+	EatFnc[fnc] end
+) 
+
+PoopInt[fnc] fizzbuzz=%count% %% 15
+PoopInt[fnc] fizz=%count% %% 3
+PoopInt[fnc] buzz=%count% %% 5
+
+
+DoIf[fnc] %fizzbuzz% == 0 (
+	Swear[fnc] FizzBuzz
+) OrNot[fnc] DoIf[fnc] %fizz% == 0 (
+	Swear[fnc] Fizz
+) OrNot[fnc] DoIf[fnc] %buzz% == 0 (
+	Swear[fnc] Buzz
+) OrNot[fnc] (
+	Swear[fnc] %count%
+)
+
+PoopInt[fnc] count++
+
+EatFnc[fnc] loop
+
+PoopFnc[fnc] end
+GotoToilet[fnc] >nul
